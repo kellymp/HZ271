@@ -2,3 +2,34 @@ body{
 	background: #F8F8F8;
 	font-family: 'News Cycle', sans-serif;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F8F8F8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+   /* padding: 10px;*/
+}
+
+li a {
+		float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ffe6ff;
+}
+
+
