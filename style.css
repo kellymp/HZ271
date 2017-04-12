@@ -1,6 +1,7 @@
 body{
 	background: #F8F8F8;
 	font-family: 'News Cycle', sans-serif;
+	text-align: center;
 }
 
 ul {
@@ -26,10 +27,17 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAD5JREFUGNN1j9EKADAIAnP//9GjFq6w7iU4DNRsB06cb44TJ+UzYUcniqnqoA6ag/62JhjKIU0rxx1lKveuXJ5UAQs/G/2vAAAAAElFTkSuQmCC),auto;
 }
 
 li a:hover:not(.active) {
     background-color: #ffe6ff;
+}
+
+p {
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 40px;
 }
 
 
