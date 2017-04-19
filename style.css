@@ -1,7 +1,9 @@
 body{
 	background: #F8F8F8;
 	font-family: 'News Cycle', sans-serif;
-	text-align: center;
+	text-align: left;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 ul {
@@ -10,7 +12,7 @@ ul {
     margin-left: 200px;
     overflow: hidden;
     background-color: #F8F8F8;
-    position: fixed;
+    position: re;
     top: 0;
     width: 100%;
 }
@@ -35,8 +37,8 @@ li a:hover:not(.active) {
 }
 
 p {
-	margin-left: 200px;
-	margin-right: 200px;
+	/*margin-left: 200px;
+	margin-right: 200px;*/
 	margin-bottom: 40px;
 }
 
@@ -47,6 +49,7 @@ p {
 }
 
 #container { 
+    margin-left: -10px;
     margin-bottom: 50px; }
 
 
